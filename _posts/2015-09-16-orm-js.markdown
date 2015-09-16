@@ -34,7 +34,7 @@ JavaEE предоставляет разработчику удобный мех
 
 Библиотека для binding-а, Knockout.js:
 
-{% highlight javascript %}
+{% highlight javascript linenos=table %}
 function TaskListViewModel() {
   // Data
   var self = this;
