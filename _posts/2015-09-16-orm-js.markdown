@@ -33,7 +33,7 @@ JavaEE предоставляет разработчику удобный мех
 
 Библиотека для binding-а, Knockout.js:
 
-```javascript
+{% highlight javascript %}
 function TaskListViewModel() {
   // Data
   var self = this;
@@ -48,7 +48,7 @@ function TaskListViewModel() {
     });
 }
 ko.applyBindings(new TaskListViewModel());
-```
+{% endhighlight %}
 
 Такой код изобилует логикой, специфичной для библиотеки Knockout.js.
 Посмотрите хотя бы на ko.computed()
