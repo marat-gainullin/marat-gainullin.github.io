@@ -21,7 +21,7 @@ categories: javascript platypus
 
 Библиотека для binding-а, Knockout.js:
 
-{% highlight javascript %} linenos=table %}
+{% highlight javascript linenos=table %}
 function TaskListViewModel() {
   // Data
   var self = this;
@@ -43,7 +43,7 @@ ko.applyBindings(new TaskListViewModel());
 
 ORM для Node.js BookShelf.js:
 
-{% highlight javascript %} linenos=table %}
+{% highlight javascript linenos=table %}
 var Customer = bookshelf.Model.extend({
     initialize: function () {
         this.on('saving', this.validateSave);
@@ -58,7 +58,7 @@ var Customer = bookshelf.Model.extend({
 
 Библиотека для работы с событиями, backbone.js:
 
-{% highlight javascript %} linenos=table %}
+{% highlight javascript linenos=table %}
 var Subject = {};
 _.extend(Subject, Backbone.Events);
 Subject.on("alert", function (msg) {
@@ -79,7 +79,7 @@ JavaEE предоставляет разработчику механизм ан
 
 Например, для того, чтобы сделать модуль с прикладной логикой Enterprise Java Bean (EJB), нужно создать класс, содержащий прикладную логику и снабдить его аннотацией @ejb.
 
-{% highlight Java %} linenos=table %}
+{% highlight Java linenos=table %}
 @ejb
 pubic class Customer{
 
@@ -95,7 +95,7 @@ pubic class Customer{
 
 Для того, чтобы управлять жизненным циклом такого серверного модуля, нужны аннотации @statefull и  @stateless.
 
-{% highlight Java %} linenos=table %}
+{% highlight Java linenos=table %}
 @ejb
 @stateless // @statefull
 pubic class Customer{
@@ -122,7 +122,7 @@ pubic class Customer{
 Он позволяет максимально изолировать технологическую часть приложения от прикладной логики подобно тому, как это делается в Java EE для Java приложений.
 Например, для того чтобы сделать глобальный серверный модуль, существующий в контексте всего сервера, надо снабдить его конструктор аннотацией @resident.
 
-{% highlight javascript %} linenos=table %}
+{% highlight javascript linenos=table %}
 
 /**
  *  @resident
@@ -134,7 +134,7 @@ function SingletonModule() {
 
 Для того, чтобы сделать серверный модуль в сессии без сохранения состояния, надо снабдить его аннотацией @stateless.
 
-{% highlight javascript %} linenos=table %}
+{% highlight javascript linenos=table %}
 
 /**
  *  @stateless
