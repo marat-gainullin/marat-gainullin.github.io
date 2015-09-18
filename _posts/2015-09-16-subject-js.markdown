@@ -83,7 +83,7 @@ JavaEE предоставляет разработчику механизм ан
 
 {% highlight Java linenos=table %}
 @ejb
-pubic class Customer{
+public class Customer{
 
     public Customer(){
         super();
@@ -100,7 +100,7 @@ pubic class Customer{
 {% highlight Java linenos=table %}
 @ejb
 @stateless // @statefull
-pubic class Customer{
+public class Customer{
 
     public Customer(){
         super();
