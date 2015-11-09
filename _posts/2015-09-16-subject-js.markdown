@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Прикладной JavaScript и технологии."
+title:  "Прикладной JavaScript и технологии. Часть 1."
 date:   2015-09-16 10:37:27
 disqus: "subject.js"
 categories: javascript platypus
@@ -147,7 +147,7 @@ function SessionModule() {
 
 {% endhighlight %}
 
-В Platypus.js предусмотрено взаимодействие между сессионными и глобальными модулями, но это выходит за рамки данной статьи и напишу об этом как-нибудь в другой раз.
+В Platypus.js предусмотрено взаимодействие между сессионными и глобальными модулями, но это выходит за рамки данной статьи и я напишу об этом как-нибудь в другой раз.
 Набор аннотаций, поддерживаемых Platypus.js намного шире чем @resident и @stateless.
 Об этом можно почитать в [документации.](http://platypus-platform.org/docs/eng/html/Development_Guide/index.html)
 
