@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JavaScript и аннотации"
+title:  "JavaScript и аннотации Platypus.js"
 date:   2015-09-16 10:37:27
 disqus: "subject.js"
 categories: javascript platypus
