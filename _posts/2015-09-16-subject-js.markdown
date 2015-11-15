@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Прикладной JavaScript и технологии. Часть 1."
+title:  "JavaScript и аннотации"
 date:   2015-09-16 10:37:27
 disqus: "subject.js"
 categories: javascript platypus
