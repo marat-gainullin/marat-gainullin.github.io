@@ -2,7 +2,7 @@
 layout: post
 title:  "Отладка Nashorn JavaScript на сервере в NetBeans и Platypus.js"
 date:   2015-11-30 10:14:07
-disqus: "orm.js"
+disqus: "dbg-nb-platypus.js"
 categories: javascript platypus
 ---
 
