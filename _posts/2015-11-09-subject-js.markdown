@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Прикладной JavaScript и технологии. Часть 2."
+title:  "Platypus.js ORM. Чистая бизнес логика"
 date:   2015-11-09 10:14:07
 disqus: "orm.js"
 categories: javascript platypus
